@@ -14,7 +14,7 @@
     "/": {
       "get": {
         "tags": [
-          "Hello World - project 2"
+          "Project 2 - Movie Library"
         ],
         "description": "",
         "responses": {
