@@ -5,7 +5,7 @@ GET http://localhost:3000/movies
 ### Get movie by id
 GET http://localhost:3000/movies/679306f4250adad0e2a85bd9
 
-### Create contact
+### Create movie
 POST http://localhost:3000/movies
 Content-Type: application/json
 
@@ -17,7 +17,7 @@ Content-Type: application/json
     "genre": "Action" 
 }
 
-### Update contact by id
+### Update movie by id
 PUT http://localhost:3000/movies
 Content-Type: application/json
 
@@ -31,3 +31,19 @@ Content-Type: application/json
 
 ### Delete contact by id
 DELETE http://localhost:3000/movies
+
+//----------------------------------------
+
+### Get all actors
+GET http://localhost:3000/actors
+
+### Create actor
+POST http://localhost:3000/actors
+Content-Type: application/json
+
+{
+    "name": "Brad Pitt",
+    "birth": "December 18, 1963",
+    "nationality": "American",
+    "filmography": ["Fight Club", "Once Upon a Time in Hollywood"]
+}
