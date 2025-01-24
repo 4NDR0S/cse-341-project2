@@ -1,0 +1,33 @@
+// LOCALHOST
+### Get all movies
+GET http://localhost:3000/movies
+
+### Get movie by id
+GET http://localhost:3000/movies/679306f4250adad0e2a85bd9
+
+### Create contact
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title":"The Avengers",
+    "director": "Joss Whedon",
+    "release": "April 11, 2012",
+    "duration": "143 minutes",
+    "genre": "Action" 
+}
+
+### Update contact by id
+PUT http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title":"The Avengers",
+    "director": "Joss Whedon",
+    "release": "April 11, 2012",
+    "duration": "143 minutes",
+    "genre": "Action" 
+}
+
+### Delete contact by id
+DELETE http://localhost:3000/movies
