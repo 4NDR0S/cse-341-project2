@@ -5,7 +5,7 @@
     "description": "Users Api",
     "version": "1.0.0"
   },
-  "host": "project1-raqb.onrender.com",
+  "host": "project2-ysy5.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"

@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4NDR0S/cse-341-project1.git"
+    "url": "git+https://github.com/4NDR0S/cse-341-project2.git"
   },
   "author": "Anthony Vela",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/4NDR0S/cse-341-project1/issues"
+    "url": "https://github.com/4NDR0S/cse-341-project2/issues"
   },
-  "homepage": "https://github.com/4NDR0S/cse-341-project1#readme",
+  "homepage": "https://github.com/4NDR0S/cse-341-project2#readme",
   "dependencies": {
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
