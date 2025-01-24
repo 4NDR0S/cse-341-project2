@@ -14,7 +14,7 @@
     "/": {
       "get": {
         "tags": [
-          "Hello World"
+          "Hello World - project 2"
         ],
         "description": "",
         "responses": {
@@ -24,10 +24,10 @@
         }
       }
     },
-    "/users/": {
+    "/movies/": {
       "get": {
         "tags": [
-          "Users"
+          "Movies"
         ],
         "description": "",
         "produces": [
@@ -41,7 +41,7 @@
       },
       "post": {
         "tags": [
-          "Users"
+          "Movies"
         ],
         "description": "",
         "parameters": [
@@ -51,19 +51,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "title": {
                   "example": "any"
                 },
-                "lastName": {
+                "director": {
                   "example": "any"
                 },
-                "email": {
+                "release": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "duration": {
                   "example": "any"
                 },
-                "birthday": {
+                "genre": {
                   "example": "any"
                 }
               }
@@ -80,10 +80,10 @@
         }
       }
     },
-    "/users/{id}": {
+    "/movies/{id}": {
       "get": {
         "tags": [
-          "Users"
+          "Movies"
         ],
         "description": "",
         "produces": [
@@ -105,7 +105,7 @@
       },
       "put": {
         "tags": [
-          "Users"
+          "Movies"
         ],
         "description": "",
         "parameters": [
@@ -121,19 +121,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "title": {
                   "example": "any"
                 },
-                "lastName": {
+                "director": {
                   "example": "any"
                 },
-                "email": {
+                "release": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "duration": {
                   "example": "any"
                 },
-                "birthday": {
+                "genre": {
                   "example": "any"
                 }
               }
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Users"
+          "Movies"
         ],
         "description": "",
         "parameters": [
