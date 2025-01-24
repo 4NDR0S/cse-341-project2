@@ -5,15 +5,17 @@
     "description": "Users Api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "project2-ysy5.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https",
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
       "get": {
+        "tags": [
+          "Project 2"
+        ],
         "description": "",
         "responses": {
           "200": {
