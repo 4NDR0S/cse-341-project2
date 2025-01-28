@@ -45,7 +45,7 @@ const createMovie = async (req, res) => {
         //#swagger.tags=['Movies']
         const movie = req.body;
         
-        // Validación de datos
+        // data validator
         if (!validateMovieData(movie)) {
             return res.status(400).json({ error: 'Missing required movie fields' });
         }
@@ -67,7 +67,7 @@ const updateMovie = async (req, res) => {
         const movieId = new ObjectId(req.params.id);
         const movie = req.body;
 
-        // Validación de datos
+        // data validator
         if (!validateMovieData(movie)) {
             return res.status(400).json({ error: 'Missing required movie fields' });
         }
