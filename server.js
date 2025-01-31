@@ -68,7 +68,8 @@ app
     passport.use(new GitHubStrategy({
         clientID: process.env.GITHUB_CLIENT_ID,
         clientSecret: process.env.GITHUB_CLIENT_SECRET,
-        callbackURL: process.env.CALLBACK_URL
+        callbackURL: 'https://project2-ysy5.onrender.com/github/callback'
+        //callbackURL: process.env.CALLBACK_URL
     },
     function(accesToken, refreshToken, profile, done) {
         //User.findOrCreate({ githubId: profile.id }, function (err, user) {
